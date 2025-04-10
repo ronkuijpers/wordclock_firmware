@@ -1,3 +1,39 @@
+# Arduino build bestanden
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.d
+*.o
+*.a
+*.pyc
+
+# VS Code instellingen (indien gebruikt)
+.vscode/
+
+# MacOS systeembestanden
+.DS_Store
+
+# Windows systeembestanden
+Thumbs.db
+
+# Geheimen en gevoelige data
+secrets.h
+
+# Backup- en tijdelijke bestanden
+*.bak
+*.tmp
+*.swp
+
+# PlatformIO (indien gebruikt)
+.pio/
+
+# Arduino bibliotheken die lokaal in de repo staan
+lib/
+
+# Eventuele logbestanden
+*.log
 # Gitignore settings for ESPHome
 # This is an example and may include too much for your use-case.
 # You can modify this file to suit your needs.

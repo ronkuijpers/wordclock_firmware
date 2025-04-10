@@ -15,7 +15,7 @@
 #include "log.h"
 #include "config.h"
 
-bool clockEnabled = true;
+bool clockEnabled = true;/Users/ron/esphome-projects/Wordclock/.gitignore
 
 // Webserver
 WebServer server(80);
